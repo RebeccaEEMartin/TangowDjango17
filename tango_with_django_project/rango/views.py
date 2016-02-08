@@ -2,13 +2,13 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 # Import the Category model
-from rango.models import Category, Page
+from models import Category, Page
 
-from rango.forms import CategoryForm
+from forms import CategoryForm
 
-from rango.forms import PageForm
+from forms import PageForm
 
-from rango.forms import UserForm, UserProfileForm
+from forms import UserForm, UserProfileForm
 
 from django.contrib.auth import authenticate, login
 from django.http import HttpResponseRedirect, HttpResponse
